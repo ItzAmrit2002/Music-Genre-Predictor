@@ -17,7 +17,7 @@ function App() {
     .replace(/\n/g, '. ') // Replace newlines with full stops
     .replace(/"/g, "'");   // Replace double quotes with single quotes
       // Make a POST request to localhost:8000 with the inputText
-      const response = await axios.post('http://localhost:8000/', { lyrics: formattedText });
+      const response = await axios.post('https://mlbackend-2kql.onrender.com', { lyrics: formattedText });
       console.log(response.data)
 
       // Extract the result message from the response
