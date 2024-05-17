@@ -6,12 +6,13 @@
   margin: 0;
   font-family: 'Arial', sans-serif;
 } */
-
+/* 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  max-width: 100vw;
 }
 .box
 {
@@ -52,4 +53,4 @@ h1{
   font-size: 30px;
   text-decoration: underline;
   font-weight: 400;
-}
+} */

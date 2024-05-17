@@ -2,7 +2,8 @@ import { useState } from 'react';
 import './App.css';
 import axios from 'axios'
 import Navbar from './Navbar';
-
+import Home from './Home';
+import Lyrics from './Lyrics';
 function App() {
   const [inputText, setInputText] = useState('');
   const [resultMessage, setResultMessage] = useState('');
@@ -35,7 +36,7 @@ function App() {
 
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/>
     
     <div className='container'>
       <div className='box'>
@@ -49,7 +50,9 @@ function App() {
       <h2>The predicted Genre is: {resultMessage? resultMessage.toUpperCase()+" MUSIC" : "Provide your lyrics to check"} </h2>
       </div>
       
-    </div>
+    </div> */}
+    <Home/>
+    <Lyrics/>
     </div>
   );
 }
