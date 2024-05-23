@@ -56,7 +56,7 @@ const Lyrics = () => {
       };
 
 	return (
-		<div className="lyrics_container">
+		<div className="lyrics_container" id="Lyrics">
             <ToastContainer
             position="bottom-center"
             theme="dark"
@@ -64,7 +64,7 @@ const Lyrics = () => {
             hideProgressBar={true}
             transition="Zoom"
             />
-			<h2 id="Lyrics">Enter your lyrics in the below box:</h2>
+			<h2 >Enter your lyrics in the below box:</h2>
 			<div class="textarea-wrapper">
 				<textarea placeholder="Enter your Lyrics"></textarea>
 			</div>
